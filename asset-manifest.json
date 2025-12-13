@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/GrandOria/static/css/main.fcfd401f.css",
-    "main.js": "/GrandOria/static/js/main.c791ec0a.js",
+    "main.css": "/GrandOria/static/css/main.3c50e61e.css",
+    "main.js": "/GrandOria/static/js/main.6fa9bdb0.js",
     "static/js/453.5bb84691.chunk.js": "/GrandOria/static/js/453.5bb84691.chunk.js",
+    "static/media/intro1.png": "/GrandOria/static/media/intro1.7e9815da0af2726ba0a3.png",
+    "static/media/resort1.png": "/GrandOria/static/media/resort1.c8d217155d75ec19e062.png",
+    "static/media/resort2.png": "/GrandOria/static/media/resort2.a12dd2c3257dff9f012d.png",
     "index.html": "/GrandOria/index.html",
-    "main.fcfd401f.css.map": "/GrandOria/static/css/main.fcfd401f.css.map",
-    "main.c791ec0a.js.map": "/GrandOria/static/js/main.c791ec0a.js.map",
+    "main.3c50e61e.css.map": "/GrandOria/static/css/main.3c50e61e.css.map",
+    "main.6fa9bdb0.js.map": "/GrandOria/static/js/main.6fa9bdb0.js.map",
     "453.5bb84691.chunk.js.map": "/GrandOria/static/js/453.5bb84691.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcfd401f.css",
-    "static/js/main.c791ec0a.js"
+    "static/css/main.3c50e61e.css",
+    "static/js/main.6fa9bdb0.js"
   ]
 }
