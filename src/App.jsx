@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
 import Header from './Component/Header';
-// import Footer from './Component/Footer';
+import Footer from './Component/Footer';
 import Introsection from './Pages/Introsection';
+import Resortsection from './Pages/Resortsection';
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
     <Header></Header>
     <Introsection></Introsection>
-    {/* <Footer></Footer> */}
+    <Resortsection></Resortsection>
+    <Footer></Footer>               
     </div>
   );
 }
