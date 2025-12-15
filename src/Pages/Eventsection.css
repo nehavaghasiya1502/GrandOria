@@ -1,0 +1,72 @@
+.event-card {
+  border: none;
+  border-radius: 15px !important;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease;
+  text-align: start;
+  height: 380px !important;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-img-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.event-img-wrap img {
+  height: 230px;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.event-card:hover img {
+  transform: scale(1.1);
+}
+
+.event-overlay {
+  position: absolute;
+  inset: 0;
+  /* background: rgba(25, 135, 84, 0.55);  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.event-card:hover .event-overlay {
+  opacity: 1;
+}
+
+.event-overlay svg {
+  font-size: 30px;
+  color: #fff;
+  /* border: 2px solid #fff; */
+  padding: 14px;
+  /* border-radius: 50%; */
+  transform: scale(0.7);
+  transition: transform 0.4s ease;
+}
+
+.event-card:hover .event-overlay svg {
+  transform: scale(1);
+}
+
+.event-points {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #198754;
+}
+
+.event-points span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}

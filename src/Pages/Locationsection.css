@@ -1,0 +1,57 @@
+.gallery-img-wrap {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.gallery-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: 12px;
+}
+
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
+  margin-left: 12px;
+}
+
+.gallery-img-wrap:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.gallery-overlay svg {
+  color: #fff;
+  font-size: 30px;
+}
+
+.discover-btn {
+  padding: 14px 32px;
+  background-color: #345e52;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.discover-btn:hover {
+  background-color: #345e52;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}

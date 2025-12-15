@@ -13,12 +13,10 @@ const Introsection = () => {
   return (
     <Container>
       <Row>
-        {/* text */}
         <Col md={6} sm={6}>
           <h1 className='luxury'>Luxury Redefined in <br /> Every Stay</h1>
           <div className='intro'>Experience unparalleled comfort and sophistication at our premium hotel. From elegant suites to world-class amenities, every moment of your stay is crafted to perfection.</div>
 
-          {/* icons-text */}
           <Row className="mt-5">
             <Col md={4} sm={6} className="d-flex align-items-center gap-2">
               <FaWifi size={20} color='#5d766f' />
@@ -36,8 +34,6 @@ const Introsection = () => {
             </Col>
           </Row>
 
-          {/* buttons */}
-
           <Row className="mt-5">
             <Col md={3} sm={6}>
               <Button variant="success" className='btn1'><b>Book Now</b></Button>
@@ -46,14 +42,12 @@ const Introsection = () => {
               <Button variant="success" className='btn2'><b>View Rooms</b></Button>
             </Col>
           </Row>
-
         </Col>
 
-        {/* img */}
         <Col>
-        <div className="intro-box mt-5 mb-5">
-           <Image src={intro} alt="Intro Image" className='intro-img' fluid />
-        </div>
+          <div className="intro-box mt-5 mb-5">
+            <Image src={intro} alt="Intro Image" className='intro-img' fluid />
+          </div>
         </Col>
 
         <hr />
@@ -64,17 +58,17 @@ const Introsection = () => {
             <p className='intro2'>LUXURY ROOMS</p>
           </Col>
 
-           <Col md={3} sm={6}>
+          <Col md={3} sm={6}>
             <h1 className='intro2'><b>5</b></h1>
             <p className='intro2'>STAR RATING</p>
           </Col>
 
-           <Col md={3} sm={6}>
+          <Col md={3} sm={6}>
             <h1 className='intro2'><b>24</b></h1>
             <p className='intro2'>HOUR SERVICE</p>
           </Col>
 
-           <Col md={3} sm={6}>
+          <Col md={3} sm={6}>
             <h1 className='intro2'><b>98</b></h1>
             <p className='intro2'>GUEST SATISFACTION</p>
           </Col>
@@ -85,3 +79,5 @@ const Introsection = () => {
 }
 
 export default Introsection;
+
+

@@ -12,7 +12,6 @@ const Introsection = () => {
         <div className="bgcolor mb-5">
             <Container>
                 <Row>
-                    {/* text */}
                     <Col md={6} sm={6} className='mt-5'>
                         <h1 className='resort1'>Welcome to Grandoria Resort</h1>
                         <div className='resort2 mt-4 fw-bolder'>Where luxury meets tranquility in the heart of nature's paradise.</div>
@@ -36,7 +35,6 @@ const Introsection = () => {
                             </Col>
                         </Row>
 
-                        {/* buttons */}
                         <Row className="mt-5">
                             <Col md={3} sm={6}>
                                 <Button variant="success" className='btn3'><b>Our Story</b></Button>
@@ -45,10 +43,8 @@ const Introsection = () => {
                                 <Button variant="success" className='btn4'><b>View Rooms</b></Button>
                             </Col>
                         </Row>
-
                     </Col>
 
-                    {/* imgs */}
                     <Col md={6} className="mt-5">
                         <div className="resort-img-wrapper">
 

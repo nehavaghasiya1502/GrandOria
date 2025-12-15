@@ -1,57 +1,64 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.bgcolor{
-    background: #efefef;
+
+.bgcolor {
+  background: #efefef;
 }
-.resort1{
-    font-size: 40px;
-    text-align: start;
-    font-weight: 600;
-    /* color: antiquewhite; */
-    /* margin-top: 100px; */
-    letter-spacing: 2;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+.resort1 {
+  font-size: 40px;
+  text-align: start;
+  font-weight: 600;
+  letter-spacing: 2;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.resort2{
-    font-size: 18px;
-    color: #345e52;
-    font-weight: 500;
-    text-align: start;
-}
-.resort3{
-    font-size: 15px;
-    color: #345e52;
-    font-weight: 400;
-    text-align: start;
-}
-.resort4{
-    font-size: 15px;
-    color: #345e52;
-    font-weight: 400;
-    text-align: start;
-}
-.resort5{
+
+.resort2 {
+  font-size: 18px;
   color: #345e52;
   font-weight: 500;
   text-align: start;
 }
-.intro{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#5d766f ;
-    text-align: start;
-    font-size: 18px;
-    margin-top: 40px;
-    /* font-weight: 300; */
-    letter-spacing: 1px;
-    word-spacing: 1px;
+
+.resort3 {
+  font-size: 15px;
+  color: #345e52;
+  font-weight: 400;
+  text-align: start;
 }
-.color-green{
-    color: #5d766f;
-    text-align: start;
+
+.resort4 {
+  font-size: 15px;
+  color: #345e52;
+  font-weight: 400;
+  text-align: start;
 }
- .btn3 {
+
+.resort5 {
+  color: #345e52;
+  font-weight: 500;
+  text-align: start;
+}
+
+.intro {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5d766f;
+  text-align: start;
+  font-size: 18px;
+  margin-top: 40px;
+  /* font-weight: 300; */
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.color-green {
+  color: #5d766f;
+  text-align: start;
+}
+
+.btn3 {
   background-color: #345e52 !important;
   border-color: #5d766f !important;
   color: #fff;
@@ -60,6 +67,7 @@
   border-radius: 10px !important;
   transition: all ease 0.3s !important;
 }
+
 .btn4 {
   background-color: white !important;
   border: 2px solid #5d766f !important;
@@ -72,39 +80,38 @@
 
 .btn3:hover,
 .btn4:hover {
-  transform: translateY(-3px); 
+  transform: translateY(-3px);
 }
-.intro-box{
-  height: 500px !important;     
-  width: 100%;          
-  overflow: hidden;       
-  border-radius: 20px;   
+
+.intro-box {
+  height: 500px !important;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
   background-color: black;
   position: relative;
 }
+
 .intro-img {
   height: 100% !important;
   width: 100%;
   object-fit: cover;
   border-radius: 20px;
-  transition: transform 0.5s ease;  
+  transition: transform 0.5s ease;
   transform-origin: center center;
   display: block;
 }
 
 .intro-img:hover {
-  transform: scale(1.05);  
+  transform: scale(1.05);
 }
 
-
-/* Wrapper */
 .resort-img-wrapper {
   position: relative;
   width: 100%;
   min-height: 600px;
 }
 
-/* Top image */
 .img-top {
   position: relative;
   border-radius: 20px;
@@ -118,7 +125,6 @@
   border-radius: 20px;
 }
 
-/* Experience badge */
 .experience-circle {
   position: absolute;
   right: 90px;
@@ -145,7 +151,6 @@
   line-height: 1.2;
 }
 
-/* Bottom image */
 .img-bottom {
   position: absolute;
   bottom: 30px;
@@ -153,7 +158,7 @@
   width: 65%;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .img-bottom img {
@@ -162,8 +167,3 @@
   object-fit: cover;
   border-radius: 20px;
 }
-
-
-
-
-
