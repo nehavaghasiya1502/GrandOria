@@ -1,18 +1,42 @@
 {
   "files": {
-    "main.css": "/GrandOria/static/css/main.3c50e61e.css",
-    "main.js": "/GrandOria/static/js/main.6fa9bdb0.js",
-    "static/js/453.5bb84691.chunk.js": "/GrandOria/static/js/453.5bb84691.chunk.js",
+    "main.css": "/GrandOria/static/css/main.1bcdeb38.css",
+    "main.js": "/GrandOria/static/js/main.ea4e7a65.js",
+    "static/js/453.0eff1003.chunk.js": "/GrandOria/static/js/453.0eff1003.chunk.js",
     "static/media/intro1.png": "/GrandOria/static/media/intro1.7e9815da0af2726ba0a3.png",
     "static/media/resort1.png": "/GrandOria/static/media/resort1.c8d217155d75ec19e062.png",
+    "static/media/pool.jpg": "/GrandOria/static/media/pool.c4cb518ab681a073212e.jpg",
+    "static/media/room1.png": "/GrandOria/static/media/room1.3f93909910f708a4cb07.png",
+    "static/media/event5.jpg": "/GrandOria/static/media/event5.3f2e5b3f9a8e595a09f6.jpg",
+    "static/media/room3.png": "/GrandOria/static/media/room3.b877ff7c0bd7802bac35.png",
     "static/media/resort2.png": "/GrandOria/static/media/resort2.a12dd2c3257dff9f012d.png",
+    "static/media/room4.png": "/GrandOria/static/media/room4.a12dd2c3257dff9f012d.png",
+    "static/media/g5.jpg": "/GrandOria/static/media/g5.9c8193a83f5800548f83.jpg",
+    "static/media/room2.png": "/GrandOria/static/media/room2.68aa68f89aae806fd12b.png",
+    "static/media/event4.jpg": "/GrandOria/static/media/event4.b0123a58a823065f30f5.jpg",
+    "static/media/g4.jpg": "/GrandOria/static/media/g4.18c2d343b6b65014400e.jpg",
+    "static/media/g1.jpg": "/GrandOria/static/media/g1.7ec82e22446b8f8549ad.jpg",
+    "static/media/g3.jpg": "/GrandOria/static/media/g3.f33aeab1d25064593a16.jpg",
+    "static/media/event1.jpg": "/GrandOria/static/media/event1.162459c2d4bdeb7bf14f.jpg",
+    "static/media/g2.jpg": "/GrandOria/static/media/g2.521792a082862da4cfb5.jpg",
+    "static/media/valet.jpg": "/GrandOria/static/media/valet.7038c20addb6bfd9720b.jpg",
+    "static/media/event2.jpg": "/GrandOria/static/media/event2.a5a31575e861113d65ec.jpg",
+    "static/media/restro.jpg": "/GrandOria/static/media/restro.c7260bae0124de783b31.jpg",
+    "static/media/spa.jpg": "/GrandOria/static/media/spa.8304769189d65f5cf52a.jpg",
+    "static/media/event3.jpg": "/GrandOria/static/media/event3.8a3510b993b2216df771.jpg",
+    "static/media/event6.jpg": "/GrandOria/static/media/event6.eadaa697247d024f64a2.jpg",
+    "static/media/rooftop.jpg": "/GrandOria/static/media/rooftop.85b7c77e0558c85d09a0.jpg",
+    "static/media/slick.svg": "/GrandOria/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/GrandOria/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/GrandOria/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/GrandOria/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/GrandOria/index.html",
-    "main.3c50e61e.css.map": "/GrandOria/static/css/main.3c50e61e.css.map",
-    "main.6fa9bdb0.js.map": "/GrandOria/static/js/main.6fa9bdb0.js.map",
-    "453.5bb84691.chunk.js.map": "/GrandOria/static/js/453.5bb84691.chunk.js.map"
+    "main.1bcdeb38.css.map": "/GrandOria/static/css/main.1bcdeb38.css.map",
+    "main.ea4e7a65.js.map": "/GrandOria/static/js/main.ea4e7a65.js.map",
+    "453.0eff1003.chunk.js.map": "/GrandOria/static/js/453.0eff1003.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c50e61e.css",
-    "static/js/main.6fa9bdb0.js"
+    "static/css/main.1bcdeb38.css",
+    "static/js/main.ea4e7a65.js"
   ]
 }
