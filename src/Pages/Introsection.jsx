@@ -50,7 +50,10 @@ const Introsection = () => {
           </div>
         </Col>
 
-        <hr />
+        <Col xs={12}>
+  <hr />
+</Col>
+
 
         <Row className='mb-5 mt-5'>
           <Col md={3} sm={6}>

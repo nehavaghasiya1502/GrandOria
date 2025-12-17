@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 .bgcolor {
   background: #efefef;
@@ -48,7 +52,6 @@
   text-align: start;
   font-size: 18px;
   margin-top: 40px;
-  /* font-weight: 300; */
   letter-spacing: 1px;
   word-spacing: 1px;
 }
@@ -81,6 +84,13 @@
 .btn3:hover,
 .btn4:hover {
   transform: translateY(-3px);
+}
+@media (max-width: 576px) {
+  .btn3,
+  .btn4 {
+    width: 100%;
+    margin-bottom: 12px;
+  }
 }
 
 .intro-box {
@@ -124,6 +134,12 @@
   object-fit: cover;
   border-radius: 20px;
 }
+@media (max-width: 576px) {
+  .img-top img {
+    width: 100%;
+    height: auto;
+  }
+}
 
 .experience-circle {
   position: absolute;
@@ -138,6 +154,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+@media (max-width: 576px) {
+  .experience-circle {
+    right: 10px;
+    bottom: 10px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .experience-circle h3 {
+    font-size: 18px;
+  }
+
+  .experience-circle span {
+    font-size: 10px;
+  }
 }
 
 .experience-circle h3 {
@@ -160,6 +192,16 @@
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
+@media (max-width: 576px) {
+  .img-bottom {
+    left: 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 15px;
+  }
+}
+
 
 .img-bottom img {
   width: 100%;

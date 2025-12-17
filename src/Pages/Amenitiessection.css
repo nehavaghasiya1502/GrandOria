@@ -1,4 +1,4 @@
-.amenity-card {
+/* .amenity-card {
   border: none;
   border-radius: 15px !important;
   overflow: hidden;
@@ -6,6 +6,16 @@
   transition: transform 0.4s ease;
   text-align: start;
   height: 530px;
+} */
+.amenity-card {
+  height: auto;      /* lets card expand based on content */
+  min-height: 530px; /* ensures uniform minimum height on desktop */
+  border: none;
+  border-radius: 15px !important;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease;
+  text-align: start;
 }
 
 .amenity-card:hover {
