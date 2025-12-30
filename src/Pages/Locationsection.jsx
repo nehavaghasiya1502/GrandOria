@@ -16,43 +16,43 @@ import g5 from "../assets/location/g5.jpg";
 const images = [g1, g2, g3, g4, g5, g1, g2, g3, g4, g5];
 
 const GallerySlider = () => {
- const settings = {
-  dots: false,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 1500,
-  arrows: false,
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    arrows: false,
 
-  responsive: [
-    {
-      breakpoint: 1200,
-      settings: {
-        slidesToShow: 4,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
+        },
       },
-    },
-    {
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 3,
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        },
       },
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
       },
-    },
-    {
-      breakpoint: 576,
-      settings: {
-        slidesToShow: 1,
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        },
       },
-    },
-  ],
-};
+    ],
+  };
 
 
   return (

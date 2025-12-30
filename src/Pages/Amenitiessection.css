@@ -1,15 +1,6 @@
-/* .amenity-card {
-  border: none;
-  border-radius: 15px !important;
-  overflow: hidden;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-  transition: transform 0.4s ease;
-  text-align: start;
-  height: 530px;
-} */
 .amenity-card {
-  height: auto;      /* lets card expand based on content */
-  min-height: 530px; /* ensures uniform minimum height on desktop */
+  height: auto;     
+  min-height: 530px; 
   border: none;
   border-radius: 15px !important;
   overflow: hidden;
@@ -55,9 +46,8 @@
 .amenity-overlay svg {
   font-size: 70px;
   color: #fff;
-  /* border: 2px solid #fff; */
   padding: 14px;
-  /* border-radius: 50%; */
+ 
   transform: scale(0.7);
   transition: transform 0.4s ease;
 }
